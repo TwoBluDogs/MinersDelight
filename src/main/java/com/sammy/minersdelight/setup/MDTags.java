@@ -15,7 +15,7 @@ public class MDTags {
     public static final TagKey<Item> MOSS = forgeItemTag("moss");
 
     public static final TagKey<Item> BAT_WING = modItemTag("bat_wing");
-    public static final TagKey<Item> INSECT_MEAT = modItemTag("insect_meat");
+    public static final TagKey<Item> RAW_INSECT_MEAT = modItemTag("raw_insect_meat");
     public static final TagKey<Item> COOKED_INSECT_MEAT = modItemTag("cooked_insect_meat");
 
     public static final TagKey<Item> SQUID = forgeItemTag("squid");
