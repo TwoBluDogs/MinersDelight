@@ -135,8 +135,8 @@ public class MDRecipeProvider extends RecipeProvider {
                 .save(consumer, MinersDelightMod.path("insect_sandwich"));
 
         shapeless(RecipeCategory.FOOD, MDItems.INSECT_WRAP.get(), 1)
-                .requires(MDTags.INSECT_MEAT)
-                .requires(MDTags.INSECT_MEAT)
+                .requires(MDTags.RAW_INSECT_MEAT)
+                .requires(MDTags.RAW_INSECT_MEAT)
                 .requires(ForgeTags.BREAD)
                 .unlockedBy("has_arthropod", has(MDItems.ARTHROPOD.get()))
                 .save(consumer, MinersDelightMod.path("insect_wrap"));
