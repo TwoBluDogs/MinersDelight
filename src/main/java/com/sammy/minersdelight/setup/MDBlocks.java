@@ -61,7 +61,7 @@ public class MDBlocks {
             })
             .loot(stuffedSquidTable())
             .item().defaultModel().properties(p -> p.stacksTo(1)).build()
-            .tag(BlockTags.MINEABLE_WITH_AXE)
+            .tag(BlockTags.MINEABLE_WITH_AXE, ModTags.Blocks.FEASTS)
             .register();
 
     public static final BlockEntry<WildCaveCarrotBlock> WILD_CAVE_CARROTS = setupBlock("wild_cave_carrots", WildCaveCarrotBlock::new, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS))
@@ -73,8 +73,8 @@ public class MDBlocks {
                 ModelFile cross = p.models().withExistingParent(name, new ResourceLocation("block/cross")).texture("cross", path("block/" + name));
                 return ConfiguredModel.builder().modelFile(cross).build();
             }))
-            .item().model((ctx, prov) -> prov.blockSprite(ctx::getEntry)).tag(ModTags.WILD_CROPS_ITEM).build()
-            .tag(BlockTags.SMALL_FLOWERS, ModTags.WILD_CROPS, ModTags.COMPOST_ACTIVATORS)
+            .item().model((ctx, prov) -> prov.blockSprite(ctx::getEntry)).tag(ModTags.Items.WILD_CROPS).build()
+            .tag(BlockTags.SMALL_FLOWERS, ModTags.Blocks.WILD_CROPS, ModTags.Blocks.COMPOST_ACTIVATORS)
             .addLayer(()-> RenderType::cutout)
             .register();
 
@@ -87,7 +87,7 @@ public class MDBlocks {
                 ModelFile cross = p.models().withExistingParent(name, new ResourceLocation("block/cross")).texture("cross", path("block/" + name));
                 return ConfiguredModel.builder().modelFile(cross).build();
             }))
-            .item().model((ctx, prov) -> prov.blockSprite(ctx::getEntry)).tag(ModTags.WILD_CROPS_ITEM).build()
+            .item().model((ctx, prov) -> prov.blockSprite(ctx::getEntry)).tag(ModTags.Items.WILD_CROPS).build()
             .tag(BlockTags.SMALL_FLOWERS)
             .addLayer(()-> RenderType::cutout)
             .register();
