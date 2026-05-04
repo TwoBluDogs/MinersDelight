@@ -94,7 +94,7 @@ repositories {
     mavenCentral()
     maven {
         name 'JEI maven'
-        url = "https://dvs1.progwml6.com/files/maven"
+        url = "https://maven.blamejared.com/"
     }
     maven {
         name 'tterrag maven'
@@ -130,7 +130,7 @@ dependencies {
     shade registrate
 
     // CurseMaven Deps
-    implementation fg.deobf("curse.maven:farmers-delight-398521:4679319")
+    implementation fg.deobf("curse.maven:farmers-delight-398521:8007609")
 }
 
 jar {
