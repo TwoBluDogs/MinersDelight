@@ -1,11 +1,11 @@
-// 1.20.1	2023-12-15T22:43:44.4111733	Registrate Provider for miners_delight [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
+// 1.20.1	2026-05-07T22:42:50.1006516	Registrate Provider for miners_delight [Recipes, Advancements, Loot Tables, Tags (blocks), Tags (items), Tags (fluids), Tags (entity_types), Blockstates, Item models, Lang (en_us/en_ud)]
 adacba901adc9342fd71c631b98653e8e2a82c5e assets/miners_delight/blockstates/cave_carrots.json
 1095ba9c112aac1751951b2d68b24d9cda7c3ddd assets/miners_delight/blockstates/cave_carrot_crate.json
 44b8922c173d7b71da37a96ca5bfce2e113b43a4 assets/miners_delight/blockstates/gossypium.json
 9a7bc0058a9f51f37a6f053ebf3ef831d544dd86 assets/miners_delight/blockstates/stuffed_squid.json
 c52ee736d213bd829230f0db7cddba4aa194aff9 assets/miners_delight/blockstates/wild_cave_carrots.json
-67f067f0899299e2a0b7fd9fa6e3e4f47f2bc03c assets/miners_delight/lang/en_ud.json
-a702997c92bd21b92676fa650542641a6cf90b08 assets/miners_delight/lang/en_us.json
+1e4c766ff41ae2e3b3d61557647f844d535c56ac assets/miners_delight/lang/en_ud.json
+bf7a62c23b460db978f0073fcbead84966cd2e1d assets/miners_delight/lang/en_us.json
 ae8d913bf076489af55abc0d941b1383b4b1716a assets/miners_delight/models/block/cave_carrots_0.json
 da4562db6b77a543a7e8d71f331f47efbf77fb13 assets/miners_delight/models/block/cave_carrots_1.json
 ca914bf65d033eb80f80f3d14278de99f2febd3d assets/miners_delight/models/block/cave_carrots_2.json
@@ -50,6 +50,7 @@ c6bbb68601f50287ec0396bd8e2f9260a5452731 assets/miners_delight/models/item/milk_
 ef6f08fff8ae67450c6fe0cc6e98dc209dbd5c90 assets/miners_delight/models/item/moss.json
 cc62222d8f280f7fcf3a5299ac4fb24868b35750 assets/miners_delight/models/item/mushroom_stew_cup.json
 0b5a2c98dba466a123bca5c0765042325288a86b assets/miners_delight/models/item/noodle_soup_cup.json
+423a65db3925801c77d3462466fe9a55d5110b33 assets/miners_delight/models/item/onion_soup_cup.json
 fc287db976f4288d84a39150447888445745f144 assets/miners_delight/models/item/pasta_with_veggieballs.json
 f214f70f1848d6240abd845517dcaebe10ba0798 assets/miners_delight/models/item/powder_snow_cup.json
 0c4fd909613f2e25681dcee523a52e3ed97c7212 assets/miners_delight/models/item/pumpkin_soup_cup.json
@@ -73,8 +74,10 @@ ea57b5029d9ebee09c4b10245f74b5b8e4338cb2 assets/miners_delight/models/item/veget
 28891866cb8ebd596354b530d5f362100872f799 assets/miners_delight/models/item/wild_cave_carrots.json
 23d35788cacf95498d612de6f72667df9f450c86 data/brewinandchewin/tags/items/raw_meats.json
 98f28aa628f6517205021323b14b5557f48bda94 data/farmersdelight/tags/blocks/compost_activators.json
+3d8c9463bfb71f06b2f07689871e9c776dbd48c8 data/farmersdelight/tags/blocks/feasts.json
 98f28aa628f6517205021323b14b5557f48bda94 data/farmersdelight/tags/blocks/wild_crops.json
-fac493beda8b328bf751363b9a26d684fd950a30 data/farmersdelight/tags/items/cabbage_roll_ingredients.json
+6aeac619e9b9bdcb8706a5dbdfc4b8c313e37c83 data/farmersdelight/tags/items/meals.json
+7b70041912a90561fbf13dc34d736ada6e18e53d data/farmersdelight/tags/items/snacks.json
 ec007a9e96848c80b0a40cadda67ab29fd75fdb6 data/farmersdelight/tags/items/wild_crops.json
 02851b0e4b4c9b431d1d379476780dc0f982aa1a data/forge/tags/blocks/crops/cave_carrot.json
 312c44a1cee0c5a452165cfb22b70d7b232742e3 data/forge/tags/items/cooked_fishes/squid.json
@@ -99,4 +102,4 @@ df2bd05bcc35b2aa12c03ea70b79a1bd74caa7b2 data/miners_delight/loot_tables/blocks/
 9b9ba6b01b52d12470666bd8ef333640a207ebd4 data/miners_delight/tags/items/baked_cave_carrot.json
 a96221e9beaa0fbbe2f6c9a1fa0b12189fa0ea67 data/miners_delight/tags/items/bat_wing.json
 0362c3b234943c4d3104ff53b3f2c118c3a2346d data/miners_delight/tags/items/cooked_insect_meat.json
-d03a273cecdb3d6f16e968707cce8354eccb6780 data/miners_delight/tags/items/insect_meat.json
+23d35788cacf95498d612de6f72667df9f450c86 data/miners_delight/tags/items/raw_insect_meat.json

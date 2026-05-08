@@ -27,7 +27,7 @@ public class MDItems {
     public static final ItemEntry<ItemNameBlockItem> CAVE_CARROT = setupItem("cave_carrot", MDFoodValues.CAVE_CARROT, p -> new ItemNameBlockItem(MDBlocks.CAVE_CARROTS.get(), p)).tag(ForgeTags.CROPS, MDTags.CAVE_CARROTS_CROP_ITEM, MDTags.CAVE_CARROTS_VEGETABLE_ITEM).register();
     public static final ItemEntry<Item> BAKED_CAVE_CARROT = setupItem("baked_cave_carrot", MDFoodValues.BAKED_CAVE_CARROT).tag(MDTags.BAKED_CAVE_CARROT).register();
     public static final ItemEntry<Item> COPPER_CARROT = setupItem("copper_carrot", MDFoodValues.COPPER_CARROT).tag(ModTags.Items.SNACKS).register();
-    public static final ItemEntry<Item> PASTA_WITH_VEGGIEBALLS = setupItem("pasta_with_veggieballs", MDFoodValues.PASTA_WITH_VEGGIEBALLS).properties(p -> p.stacksTo(16)).tag(ModTags.Items.MEALS).register();
+    public static final ItemEntry<ConsumableItem> PASTA_WITH_VEGGIEBALLS = setupBowlFoodItem("pasta_with_veggieballs", MDFoodValues.PASTA_WITH_VEGGIEBALLS).properties(p -> p.stacksTo(16)).tag(ModTags.Items.MEALS).register();
     public static final ItemEntry<ConsumableItem> CAVE_SOUP = setupBowlFoodItem("cave_soup", MDFoodValues.CAVE_SOUP).tag(ModTags.Items.MEALS).register();
 
     public static final ItemEntry<Item> VEGAN_PATTY = setupItem("vegan_patty", MDFoodValues.VEGAN_PATTY).tag(MDTags.BAKED_CAVE_CARROT).register();
@@ -75,6 +75,7 @@ public class MDItems {
     public static final ItemEntry<CopperCupFoodItem> PUMPKIN_SOUP_CUP = setupCupFoodItem("pumpkin_soup_cup", FoodValues.PUMPKIN_SOUP).register();
     public static final ItemEntry<CopperCupFoodItem> VEGETABLE_SOUP_CUP = setupCupFoodItem("vegetable_soup_cup", FoodValues.VEGETABLE_SOUP).register();
     public static final ItemEntry<CopperCupFoodItem> BONE_BROTH_CUP = setupCupFoodItem("bone_broth_cup", FoodValues.BONE_BROTH).register();
+    public static final ItemEntry<CopperCupFoodItem> ONION_SOUP_CUP = setupCupFoodItem("onion_soup_cup", FoodValues.ONION_SOUP).register();
     public static final ItemEntry<CopperCupFoodItem> CAVE_SOUP_CUP = setupCupFoodItem("cave_soup_cup", MDFoodValues.CAVE_SOUP).register();
     public static final ItemEntry<CopperCupFoodItem> BAT_SOUP_CUP = setupCupFoodItem("bat_soup_cup", MDFoodValues.BAT_SOUP).register();
     public static final ItemEntry<CopperCupFoodItem> INSECT_STEW_CUP = setupCupFoodItem("insect_stew_cup", MDFoodValues.INSECT_STEW).register();
