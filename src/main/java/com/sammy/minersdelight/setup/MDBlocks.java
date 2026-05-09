@@ -23,6 +23,7 @@ import net.minecraft.world.level.storage.loot.predicates.*;
 import net.minecraft.world.level.storage.loot.providers.number.*;
 import net.minecraftforge.client.model.generators.*;
 import vectorwing.farmersdelight.common.block.*;
+import vectorwing.farmersdelight.common.item.PlaceableItem;
 import vectorwing.farmersdelight.common.tag.*;
 
 import java.util.function.*;
@@ -60,8 +61,7 @@ public class MDBlocks {
                         .rotationY((((int) s.getValue(FeastBlock.FACING).toYRot() + 180))).build());
             })
             .loot(stuffedSquidTable())
-            .item().defaultModel().properties(p -> p.stacksTo(1)).build()
-            .tag(ModTags.Blocks.MINEABLE_WITH_KNIFE, ModTags.Blocks.FEASTS)
+            .item(PlaceableItem::new).properties(p -> p.stacksTo(1)).tag(ModTags.Items.FEASTS).build()
             .register();
 
     public static final BlockEntry<WildCaveCarrotBlock> WILD_CAVE_CARROTS = setupBlock("wild_cave_carrots", WildCaveCarrotBlock::new, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS))
