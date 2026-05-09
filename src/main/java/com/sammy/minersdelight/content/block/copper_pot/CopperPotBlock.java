@@ -165,7 +165,7 @@ public class CopperPotBlock extends BaseEntityBlock implements SimpleWaterlogged
 			MutableComponent textMealName = mealStack.getHoverName().copy();
 			tooltip.add(textMealName.withStyle(mealStack.getRarity().color));
 		} else {
-			MutableComponent textEmpty = TextUtils.getTranslation("tooltip.cooking_pot.empty");
+			MutableComponent textEmpty = TextUtils.getTextWithType("tooltip", "cooking_pot.empty");//"tooltip.farmersdelight.cooking_pot.empty");
 			tooltip.add(textEmpty.withStyle(ChatFormatting.GRAY));
 		}
 	}

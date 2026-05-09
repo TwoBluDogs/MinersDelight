@@ -37,7 +37,7 @@ public class MDFoodValues {
     public static final FoodProperties COOKED_ARTHROPOD = new FoodProperties.Builder().nutrition(5).saturationMod(0.15f).meat().build();
     public static final FoodProperties INSECT_SANDWICH = new FoodProperties.Builder().nutrition(10).saturationMod(0.55f).build();
     public static final FoodProperties INSECT_WRAP = new FoodProperties.Builder().nutrition(12).saturationMod(0.55f).build();
-    public static final FoodProperties INSECT_STEW = new FoodProperties.Builder().nutrition(8).saturationMod(0.45f).build();
+    public static final FoodProperties INSECT_STEW = new FoodProperties.Builder().nutrition(8).saturationMod(0.45f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 1200, 0, false, false), 1.0F).build();
     public static final FoodProperties SEASONED_ARTHROPODS = new FoodProperties.Builder().nutrition(14).saturationMod(0.75f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 6000, 0), 1.0F).build();
 
     public static final FoodProperties SQUID = new FoodProperties.Builder().nutrition(3).saturationMod(0.15f).effect(() -> new MobEffectInstance(MobEffects.BLINDNESS, 600, 0), 0.4F).meat().build();

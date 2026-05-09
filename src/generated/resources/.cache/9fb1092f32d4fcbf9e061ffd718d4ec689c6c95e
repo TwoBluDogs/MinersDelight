@@ -1,4 +1,4 @@
-// 1.20.1	2026-05-07T22:42:50.1046498	Recipes
+// 1.20.1	2026-05-08T21:32:08.4114423	Recipes
 437b1ae198ff27886bf37112b97c491bb1430e79 data/minecraft/advancements/recipes/building_blocks/mossy_cobblestone_from_moss_block.json
 fe0b7c888c3265628eb679f7b54d8318d93a9889 data/minecraft/advancements/recipes/building_blocks/mossy_stone_bricks_from_moss_block.json
 6e61f27c0983264004b2d4be18cfc8ce03a92e85 data/minecraft/advancements/recipes/decorations/moss_carpet.json
@@ -74,9 +74,9 @@ ce30522a7c9cbfab0c583a8b6d0302a7ee2b58c6 data/miners_delight/recipes/cutting/bat
 3af5610422246708b84e5c9639c045373db5baf6 data/miners_delight/recipes/cutting/squid.json
 1e6dca26751882121daa93ce156e85e695db584c data/miners_delight/recipes/cutting/vegan_patty.json
 e5f15cd49f1c93327da758b758e1b3499e740f65 data/miners_delight/recipes/cutting/wild_cave_carrot.json
-0879574581c50774a1f35ffc42a9846edc048672 data/miners_delight/recipes/improvised_barbecue_stick.json
-bf39e63cef7253b8f15f2854a5c55829a307eaca data/miners_delight/recipes/insect_sandwich.json
-894d74ee9d7ee8a9c8663a66ae136c8cf017e581 data/miners_delight/recipes/insect_wrap.json
+a9da70cff27c1d0074864a4406477fd3efaddc8b data/miners_delight/recipes/improvised_barbecue_stick.json
+2f11a45cc48b14317d2b6a66487313684ac66ec9 data/miners_delight/recipes/insect_sandwich.json
+725936ae5b877ff8fae95308f08e3a87dbf9d3b4 data/miners_delight/recipes/insect_wrap.json
 b420fc7d7fee6f84b73ed70094e141d5d43e8e52 data/miners_delight/recipes/seasoned_arthropods.json
 464c3ca273c86768922e771cce85d0e5d218c5bf data/miners_delight/recipes/smoked_bat_wing.json
 5c5ad6e9ecda87705179013e8bd6d4ef18467ede data/miners_delight/recipes/smoked_bat_wing_campfire.json

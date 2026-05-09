@@ -61,7 +61,7 @@ public class MDBlocks {
             })
             .loot(stuffedSquidTable())
             .item().defaultModel().properties(p -> p.stacksTo(1)).build()
-            .tag(BlockTags.MINEABLE_WITH_AXE, ModTags.Blocks.FEASTS)
+            .tag(ModTags.Blocks.MINEABLE_WITH_KNIFE, ModTags.Blocks.FEASTS)
             .register();
 
     public static final BlockEntry<WildCaveCarrotBlock> WILD_CAVE_CARROTS = setupBlock("wild_cave_carrots", WildCaveCarrotBlock::new, BlockBehaviour.Properties.copy(Blocks.TALL_GRASS))

@@ -39,7 +39,7 @@ public class CopperPotCookingRecipeCategory implements IRecipeCategory<CookingPo
 	private final IDrawable icon;
 
 	public CopperPotCookingRecipeCategory(IGuiHelper helper) {
-		title = TextUtils.getTranslation("jei.cooking");
+		title = TextUtils.getTextWithType("jei", "cooking");
 		ResourceLocation backgroundImage = MinersDelightMod.path("textures/gui/copper_pot.png");
 		ResourceLocation fdBackgroundImage = new ResourceLocation("farmersdelight", "textures/gui/cooking_pot.png");
 		background = helper.createDrawable(backgroundImage, 29, 16, 117, 57);
